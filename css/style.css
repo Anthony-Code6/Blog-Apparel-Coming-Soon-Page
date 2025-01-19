@@ -17,7 +17,7 @@
     --Linear-2-to: hsl(0, 74%, 74%);
 }
 
-@media only screen and (min-width:370px) and (max-width:800px) {
+@media only screen and (min-width:300px) and (max-width:800px) {
 
     /* Configuracion del Grid */
     .container {
@@ -67,6 +67,10 @@
 
     main .details .formulario .form-control {
         width: 80% !important;
+    }
+
+    main .details .formulario #error-logo {
+        right: 30% !important;
     }
 }
 
